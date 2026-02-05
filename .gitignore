@@ -1,0 +1,29 @@
+# Build artifacts
+.ebpf/
+*.o
+*.so
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Project specific
+features.jsonl
+*.jsonl
+*.pkl
+*.json
